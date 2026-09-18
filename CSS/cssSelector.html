@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="cssSelector.css">
+</head>
+<body>
+    <!-- 
+        >>Element Selector >>3(priority)
+        >>ID Selector >>1(priorty)
+        >>Class Selector >>2(priority)
+        >>Universal Selector
+        >>Nested Selector
+        >>Direct child Selector
+        >>Descendent Selector
+     -->
+    <header>
+        <h1>
+            Selectors in CSS
+        </h1>
+    </header>
+    <main>
+        <article id="ElementSel">
+            <h2>Element Selector</h2>
+            <p id="one" class="p1C">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur eveniet, quaerat vero maxime quas. Quas dolore itaque labore adipisci?</p>
+        </article>
+        <article id="idSel">
+            <h2>
+                Id Selector
+            </h2>
+            <p id="two" class="p2C">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus nesciunt saepe nostrum aspernatur recusandae quo sint natus rerum iste!</p>
+        </article>
+        <article id="classSel">
+            <h2>Class Selector</h2>
+        <p id="three" class="p3C p4C">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi doloremque ipsam sint obcaecati aut, veniam suscipit animi rerum doloribus quibusdam!
+        </p>
+        </article>
+        <article id="descSel">
+            <h2> 
+                Descendent Selector
+            </h2>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at?
+            </p>
+        </section>
+        <p id="three" class="p3C p4C">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi doloremque ipsam sint obcaecati aut, veniam suscipit animi rerum doloribus quibusdam!
+        </p>
+        </article>
+        <article id="dircSel">
+            <h2> 
+                Direct Child Selector
+            </h2>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at?
+            </p>
+        </section>
+        <p id="three" class="p3C p4C">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi doloremque ipsam sint obcaecati aut, veniam suscipit animi rerum doloribus quibusdam!
+        </p>
+        </article>
+    </main>
+</body>
+</html>
