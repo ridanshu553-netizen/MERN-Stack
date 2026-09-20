@@ -1,0 +1,15 @@
+body{
+    font-size:20px;
+    font-family:cursive;
+    text-align:center;
+    color:lightgreen;
+    background-color:rgb(136, 133, 133);
+}
+article{
+    background-color:rebeccapurple;
+    color:white;
+    padding:45px;
+    margin:45px;
+    font-size:16px;
+    border-radius:25%;
+}
